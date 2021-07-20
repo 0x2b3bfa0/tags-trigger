@@ -1,9 +1,0 @@
-on:
-  pull_request:
-    tags:
-      - test/*
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: date
